@@ -1,7 +1,9 @@
-import RelativeTime from './view/RelativeTime';
+import RelativeTime from './view/RelativeTimeComponent';
+import SizeComponent from './view/SizeComponent';
 
 function App() {
-  return <RelativeTime />;
+  // return <RelativeTime />;
+  return <SizeComponent/>
 }
 
 export default App;
